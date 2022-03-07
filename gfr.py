@@ -23,9 +23,9 @@ if age > 2:
 #creatinine = int(input('Input creatinine of a patient (μmol/L): '))
     scr = int(input('Input serum creatinine of a patient (μmol/L): '))
 
-def ckd_epi(age, weight, creatinine):
+'''def ckd_epi(age, weight, creatinine):
     men = ((140 - age) * 1.23 * weight) / creatinine
-    print('CKD-EPI: {}'.format(men))
+    print('CKD-EPI: {}'.format(men))'''
 
 '''The CKD-EPI equation, expressed as a single equation, is:
 
